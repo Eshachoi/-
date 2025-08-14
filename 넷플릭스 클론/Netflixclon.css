@@ -1,0 +1,41 @@
+body {
+    background-color: #222;
+    background-image: radial-gradient(11% 56% at 17% 50%, #461518 0%, transparent 100%), 
+                      radial-gradient(11% 56% at 83% 50%, #461518 0%, transparent 100%);
+    background-size: 1920px 996px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 0;
+}
+
+.background_pic {
+    background-image: url(/netflix_background1.jpg) linear-gradient(to ) ;
+    width: 1920px;
+    height: 996px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    transform: translateX(350px);
+}
+
+header {
+    width: 1920px;
+    height: 120px;
+    padding: 0 148px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.title_box {
+    width: 1228px;
+    height: 88px;
+}
+.netflix_logo {
+    width: 148px;
+    height: 48px;
+    color: red;
+    padding: ;
+}
+.netflix_svg path {
+    fill: #e50914;
+}
