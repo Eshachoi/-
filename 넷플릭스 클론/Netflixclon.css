@@ -1,41 +1,123 @@
-body {
-    background-color: #222;
-    background-image: radial-gradient(11% 56% at 17% 50%, #461518 0%, transparent 100%), 
-                      radial-gradient(11% 56% at 83% 50%, #461518 0%, transparent 100%);
-    background-size: 1920px 996px;
-    background-repeat: no-repeat;
-    background-position: center top;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.background_pic {
-    background-image: url(/netflix_background1.jpg) linear-gradient(to ) ;
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+    url(/netflix_background1.jpg);
     width: 1920px;
     height: 996px;
     background-repeat: no-repeat;
     background-position: center top;
-    transform: translateX(350px);
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
 }
-
-header {
-    width: 1920px;
-    height: 120px;
+/*header 시작*/
+nav {
+    width: 1620px;
+    height: 88px;
     padding: 0 148px;
     align-items: center;
     justify-content: space-between;
     display: flex;
 }
-
-.title_box {
-    width: 1228px;
-    height: 88px;
+header {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
 }
-.netflix_logo {
+
+.netflix_svg  {
     width: 148px;
     height: 48px;
-    color: red;
-    padding: ;
+    color: #e50914;
 }
-.netflix_svg path {
-    fill: #e50914;
+
+.choose_btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.lang {
+    width: 124px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid#fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+.lang i {
+    padding: 5px;
+}
+
+.lang .icon {
+    background-color: transparent;
+    color: #fff;    
+}
+
+.log_in{
+    width: 69px;
+    height: 32px;
+    background: #e50914;
+    border: 1px solid #e50914;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+.hdeader_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+    }
+    .lang {
+        padding: 4px 8px;
+    }
+    .log_in {
+        padding: 4px 8px;
+    }
+    .header_content {
+        width: 90%;
+    }
+    .header_content h2 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .header_content h3 {
+        font-size: 20px;
+    }
+    .add_email button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+
+.header_content {
+    width: 1900px;
+    height: 720px;
+    
+    justify-content: center;
+    padding: 35px;
+}
+
+h2 {
+    font-size: 3rem;
+    align-items: center;
+    margin: 200px 0 20px;
 }
