@@ -111,13 +111,75 @@ header {
 .header_content {
     width: 1900px;
     height: 720px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding: 35px;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     align-items: center;
-    margin: 200px 0 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 17px;
 }
+
+h3 {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.add_email {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.add_email input{
+    width: 413px;
+    height: 56px;
+    display: flex;
+    border: 0.5px solid #fff;
+    background-color: transparent;
+    padding: 24px 16px 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.add_email button{
+    width:167px;
+    height: 56px;
+    background-color: #e50914;
+    font-size: 1.5rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.curve {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to right, #ff004c, #d800a6);
+}
+
+.curve svg {
+    width: 100%;
+    height: 100%;
+}
+
